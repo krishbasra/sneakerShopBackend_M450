@@ -1,11 +1,11 @@
-name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+name: M450
+run-name: ${{ github.actor }} M450
 on: [push]
 jobs:
   Tests:
     defaults:
       run:
-        working-directory: ./backend/
+        working-directory: ./sneakershop/
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
